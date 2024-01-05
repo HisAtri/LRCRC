@@ -1,0 +1,11 @@
+name: 提交请求
+description: 歌词提交请求
+labels: ['post']
+body:
+  - type: textarea
+    id: describe
+    attributes:
+      label: 歌词数据
+      description: 网站生成的歌词JSON数据
+    validations:
+      required: true
